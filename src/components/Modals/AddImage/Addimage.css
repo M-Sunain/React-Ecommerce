@@ -1,0 +1,24 @@
+.App-upload-Image {
+    height: 170px;
+    border-radius: 4px;
+    width: 185px;
+    border: 2px dashed #2b92d5;
+    background: aliceblue;
+}
+
+.App-clear {
+    border-bottom: 1px solid #bdc3c7;
+    width: 38.5%;
+    position: relative;
+    border-right: 1px solid #fff;
+    /* border-left: 1px solid #fff; */
+}
+
+.width-65 {
+    width: 65px;
+}
+
+.padd-lr {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}

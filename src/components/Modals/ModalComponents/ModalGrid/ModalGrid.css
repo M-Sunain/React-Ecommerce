@@ -1,0 +1,24 @@
+.App-modal-grid {
+    overflow: auto;
+    /* height: 70vh; */
+    border-left: 1px solid #bdc3c7;
+}
+
+.App-modal-grid::-webkit-scrollbar {
+    height: 7px;
+    box-shadow: inset 0 0 6px #ddd;
+}
+
+#App-Modal-Record-Not-Found {
+    position: fixed;
+    top: 240px;
+    right: 420px; 
+}
+
+#App-Modal-Record-Not-Found img {
+    width: 280px;
+}
+
+.br-modal-grid {
+    border-right: 1px solid #bdc3c7;
+}

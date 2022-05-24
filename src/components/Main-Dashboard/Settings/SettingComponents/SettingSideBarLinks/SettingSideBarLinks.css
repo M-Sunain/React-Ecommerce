@@ -1,0 +1,44 @@
+.App-SettingSideBarLinks ul a li {
+    /* background: aqua; */
+    height: 45px;
+    padding: 0 23px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+.App-SettingSideBarLinks ul a li i {
+    color: #bdc3c7;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.App-SettingSideBarLinks ul a li span {
+    font-size: 14px;
+    color: #bdc3c7;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+}
+
+.App-SettingSideBarLinks ul a li.active i {
+    color: #5e6366;
+}
+
+.App-SettingSideBarLinks ul a li.active::after {
+    content: "\f0da";
+    position: absolute;
+    font-family: "FontAwesome";
+    right: 15px;
+    color: #5e6366;
+    bottom: 0;
+    font-size: 16px;
+    margin: auto;
+    top: 10px;
+}
+
+.App-SettingSideBarLinks ul a li.active span {
+    color: #5e6366;
+    font-weight: 600;
+}

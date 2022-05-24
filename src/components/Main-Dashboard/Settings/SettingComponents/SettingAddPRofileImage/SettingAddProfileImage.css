@@ -1,0 +1,43 @@
+.App-Setting-Image {
+    height: 175px;
+    width: 100%;
+    display: flex;
+    /* background: #000; */
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #bdc3c7;
+    cursor: pointer;
+}
+
+.App-Setting-Add-Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 135px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0px 1px 6px 1px #80808091;
+    border: 3px solid #2b92d5;
+}
+
+.App-Setting-Add-Image img {
+    width: 108px;
+    border-radius: 35%;
+}
+
+.App-Setting-Add-Image i {
+    position: absolute;
+    background: linear-gradient(130deg, #2b92d5, #2bc4d5) !important;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 14px;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

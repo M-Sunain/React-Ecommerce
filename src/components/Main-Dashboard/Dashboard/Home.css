@@ -1,0 +1,115 @@
+.App-Main-Top-Head {
+    height: 20px;
+    background: linear-gradient(130deg, #2b92d5, #2bc4d5) !important;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 2px 7px 1px 7px;
+    margin-top: -2px;
+    position: relative;
+}
+
+.App-Product-Top {
+    margin-top: -2px;
+    /* padding: 0 3px 0 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.App-Product-Top-left i {
+    color: #2b92d5;
+    font-size: 12px !important;
+}
+
+.mr-13 {
+    margin-right: 9px;
+}
+
+span.App-Icon {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer !important;
+}
+
+.first {
+    height: 28px;
+    width: 22px;
+    display: flex;
+    /* margin-top: -5px; */
+    align-items: center;
+    justify-content: center;
+}
+
+.first:hover {
+    background-color: #64c2ff52;
+}
+
+button.App-Hover-Btn {
+    border: none;
+    background: none;
+    font-size: 13px;
+    height: 26px;
+    /* font-weight: 600; */
+    padding: 2px 5px;
+    color: #2b92d5;
+    display: flex;
+    margin: 2px;
+    align-items: center;
+}
+
+button.App-Hover-Btn:hover {
+    background-color: #64c2ff52;
+}
+
+.App-Select-Month {
+    position: relative;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.App-Select-Month label {
+    font-size: 13px;
+    padding-right: 0px;
+    padding-left: 5px;
+    color: #2b92d5 !important;
+}
+
+.App-Select-Month select {
+    background-color: var(--edpwhite) !important;
+    border-radius: 3px !important;
+    height: 22px !important;
+    padding: 1px 3px !important;
+    font-size: 12px !important;
+    border: 1px solid #e3e3e3 !important;
+    width: 197px !important;
+    margin: 0 5px;
+    outline: none;
+    /* font-family: 'Montserrat', sans-serif; */
+    color: #5a5959;
+    outline: none;
+}
+
+.dff {
+    display: flex;
+    align-items: center;
+}
+
+.App-Action-Table{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.m-lr {
+    margin: 0 10px;
+}
+
+.App-Product-Top-Right {
+    align-items: center;
+}

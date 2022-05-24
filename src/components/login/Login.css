@@ -1,0 +1,113 @@
+.App-Side-Login {
+    height: 100%;
+    background: #2BC4D5;
+    width: 310px;
+    width: 22.7%;
+    z-index: 111;
+    box-shadow: 3px 3px 5px 0px #04040442;
+    /* background: #31b2f0;*/
+}
+
+.App-Login-Form {
+    height: 94%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.App-Login-Logo {
+    width: 130px;
+    margin-bottom: 16px;
+}
+
+.App-Login-Logo img {
+    width: 100%;
+}
+
+.App-Login-Form h4 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.App-Login-Form p {
+    font-size: 13px;
+    color: #fff;
+}
+
+.App-login-Input {
+    position: relative;
+}
+
+.App-login-Input input {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 6px 40px;
+    height: 36px;
+    outline: none;
+    border-radius: 20px;
+    background: #f8f8f8;
+    border: none;
+    box-shadow: inset 0px 0px 4px 0px #afafaf;
+}
+
+
+.App-login-Input img {
+    position: absolute;
+    width: 19px;
+    left: 42px;
+    top: 6px;
+    filter: invert(53%) sepia(16%) saturate(2838%) hue-rotate(165deg) brightness(91%) contrast(82%);
+}
+
+.App-Login-Btn button {
+    width: 130px;
+    height: 40px;
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 25px;
+    /* background: linear-gradient(103deg, #2BC4D5 0%, #2B92D5 100%); */
+    background: linear-gradient(103deg, #2BC4D5 0%, #2BC4D5 100%);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    /* box-shadow: 3px 3px 4px #00000075; */
+    box-shadow: 1px 2px 4px 2px #00000075;
+    color: #fff;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.App-Forget-Pass span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.App-login-Input i {
+    position: absolute;
+    right: 42px;
+    top: 9px;
+    color: #2B92D5;
+}
+
+.App-Login-Right {
+    /* background: #f6faff; */
+    height: 100%;
+    width: 77.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.App-Login-Right-Image-Main img {
+    width: 75%;
+}
+
+.Toastify__progress-bar {
+    opacity: .7 !important;
+}
